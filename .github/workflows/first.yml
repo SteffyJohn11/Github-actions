@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         run: echo "Hello world! Welcome to my first workflow"
-   tests  test_job:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
