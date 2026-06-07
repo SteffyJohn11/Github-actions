@@ -1,0 +1,13 @@
+name: My First workflow
+
+on: 
+  push:
+    branches: 
+      - dev
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world action step
+        run: echo "Hello world! Welcome to my first workflow"
