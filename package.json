@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "npm test"
+    "test": "jest"
   },
   "dependencies": {
     "react": "^19.2.6",
@@ -23,6 +23,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "jest": "^30.4.2",
     "vite": "^8.0.12"
   }
 }
